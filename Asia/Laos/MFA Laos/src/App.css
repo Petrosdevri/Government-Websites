@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Times New Roman');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* General Style */
+body {
+    font-family: 'Times New Roman', Georgia, Serif !important;  /* #CE1126	*/
+    text-align: center;
+}
+
+img {
+    pointer-events: none;
+}
+
+section h5 {
+    width: 100%;
+    height: 2.5em;
+    background: #3366FF;
+    color: #FFFFFF;
+    padding: 0.5em;
+}
+
+/* Header, Navbar and Footer */
+header, .navbar, footer {
+    font-family: 'Roboto', sans-serif;
+} 
+
+/* Main Styles */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.main > * {
+    padding: 3em;
+}
+
+.padding {
+    padding: 1em 2em;
+}
+
+.spacing {
+    letter-spacing: 4px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1080px) {
+    /* body {
+        margin: 0 auto;
+    } */
+
+    .main {
+        flex-direction: column;
+    }
+}

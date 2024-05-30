@@ -1,0 +1,12 @@
+header {
+    background: #002868;
+    color: #FFFFFF;
+    letter-spacing: 0.05em;
+}
+
+@media screen and (max-width: 768px) {
+    .hstack {
+        flex-direction: column !important;
+        text-align: center;
+    } 
+}

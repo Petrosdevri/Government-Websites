@@ -1,0 +1,12 @@
+.navbar {
+    background: #000000;
+}
+
+.nav-link {
+    color: #FFFFFF !important;
+    font-weight: 700 !important;
+}
+
+.dropdown-item:hover {
+    background: #E6E6E6 !important;
+}

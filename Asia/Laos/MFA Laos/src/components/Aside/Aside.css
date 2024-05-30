@@ -1,0 +1,22 @@
+aside {
+    width: 30%;
+    float: left;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.aside-element {
+    padding: 0.5em 0;
+}
+
+.aside-element a {
+    color: #002868;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.aside-element a:hover {
+    color: #CE1126;
+}

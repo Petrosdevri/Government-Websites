@@ -1,0 +1,37 @@
+aside {
+    width: 30%;
+    float: right;
+}
+
+.announcements {
+    background: #E6E6E6;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7.5px #000000;
+}
+
+section h5 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.announcement-element {
+    padding: 0.5em 0.3em;
+}
+
+.announcement-element a {
+    color: #CE1126;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.announcement-element a:hover {
+    color: #FF0000;
+}
+
+.announcement-date {
+    color: #000000;
+}
